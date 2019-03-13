@@ -7,6 +7,7 @@ function theBeatlesPlay(musicians,instruments){
     musiciansPlaysStrings = musicians[i] + " plays " + instruments[i]
     myArray.push(musiciansPlaysStrings)
   }return myArray
+}
   function johnLennonFacts(facts){
     var myString
     var emptyFacts =[]
