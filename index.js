@@ -1,14 +1,14 @@
 // add solution here
 function theBeatlesPlay(musicians,instruments){
   var myArray = []
-  var musiciansPlaysStrings 
+  var musiciansPlaysStrings
   for( i = 0 ; i < musicians.length; i++){
-    
+
     musiciansPlaysStrings = musicians[i] + " plays " + instruments[i]
     myArray.push(musiciansPlaysStrings)
   }return myArray
   function johnLennonFacts(facts){
-    var myString 
+    var myString
     var emptyFacts =[]
     while ( i < facts.length){
       myString = facts[i] + "!!!"
